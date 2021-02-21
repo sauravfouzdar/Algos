@@ -5,7 +5,7 @@ vector<bool> visited;
 
 void dfs(int v) {
     visited[v] = true;
-    for (int child:child<adj[v].size(); ++child) {
+    for (int child;child<adj[v].size(); ++child) {
         if (!visited[child])
             dfs(child);
     }
