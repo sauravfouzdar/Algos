@@ -11,7 +11,7 @@
 #include <math.h>
 #include <list>
 #include <fstream>
-//#define int long long
+#define int long long
 #define fo(i,n) for(int i=0;i<n;++i)
 #define READINPUT(i,n,v) for(int i=0;i<n;++i) cin>>v[i];
 #define ff(i,n) for(int i=1;i<=n;++i)
