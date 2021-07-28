@@ -1,3 +1,4 @@
+//A constructor is invoked whenever a class is created(by default)
 #include <iostream>
 #include <string>
 using namespace std;
